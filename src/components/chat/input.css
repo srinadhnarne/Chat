@@ -1,0 +1,37 @@
+.chat__input {
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+}
+
+.chat__input input {
+    flex: 2;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: large;
+}
+
+.Send img {
+    width: 1.5rem;
+}
+
+.Send {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.Send button {
+    border: none;
+    padding: 0.5rem 0.75rem;
+    background-color: #0a7b8a;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}

@@ -1,0 +1,85 @@
+.formContainer {
+    position: relative;
+    background-color: var(--bg-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formWrapper {
+    width: 25rem;
+    background-color: white;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.logo {
+    color: var(--text-color);
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.title {
+    color: white;
+    font-size: 1.5rem;
+    background-color: var(--text-color);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.75rem;
+    width: 100%;
+    text-align: center;
+}
+
+.formElements {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.formElements input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
+
+.formElements button {
+    background-color: var(--text-color);
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.formWrapper p {
+    color: var(--text-color);
+}
+
+@media screen and (max-width:360px) {
+    .formWrapper {
+        width: 20rem;
+    }
+    
+    .logo {
+        font-size: 2.5rem;
+    }
+    .formWrapper p {
+        font-size: small;
+    }
+    .formElements button {
+        margin-top: 0.1rem;
+    }
+    .formElements  {
+        margin-top: 1rem;
+    }
+}

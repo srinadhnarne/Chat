@@ -1,0 +1,45 @@
+.chat__search{
+    background-color: rgba(255, 255, 255, 0.241);
+}
+
+
+.chat__search input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0.25rem;
+    font-size: 1.25rem;
+    background-color: rgba(255, 255, 255, 0.241);
+}
+.chat__search input::placeholder{
+    color: black;
+}
+
+.chat__search-userchats {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid;
+}
+.chat__search-userchats:hover {
+    background-color: rgba(113, 224, 226, 0.326);
+}
+
+
+.chat__userchatinfo span {
+    font-weight: 900;
+    font-size: large;
+}
+
+.chat__userchatinfo p {
+    font-weight: 100;
+    font-size: small;
+}
+
+.chat__search-userchats img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
